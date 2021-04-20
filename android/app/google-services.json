@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "939042127984",
+    "project_id": "slidymodular-454d3",
+    "storage_bucket": "slidymodular-454d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939042127984:android:76948cddf7c05a4dc7b4b5",
+        "android_client_info": {
+          "package_name": "br.fluterrando.flutter_modular_5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939042127984-9o9r9gvv27i8mlbu6rooh5s0c6fc7gp9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.fluterrando.flutter_modular_5",
+            "certificate_hash": "06fa3574b51747d56611f86e0f5f632b32258340"
+          }
+        },
+        {
+          "client_id": "939042127984-u5cf1vpc5ai7dgagvgcr3h4nh72fe2qk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCielG6bvIcFXm4Mm2NJVyLpSfuyf5v2JI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939042127984-u5cf1vpc5ai7dgagvgcr3h4nh72fe2qk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

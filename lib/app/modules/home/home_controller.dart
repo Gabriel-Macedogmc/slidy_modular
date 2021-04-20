@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_modular/flutter_modular.dart';
+import 'package:flutter_modular_5/app/shared/auth/auth_controller.dart';
 import 'package:flutter_modular_5/app/shared/repositories/localStorage/local_storage_interface.dart';
 import 'package:mobx/mobx.dart';
 part 'home_controller.g.dart';
@@ -39,5 +40,11 @@ abstract class _HomeControllerBase with Store {
   void remove(int index) {
     list.removeAt(index);
     _storage.put('list', list);
+  }
+
+  @action
+  Future logoff() async {
+    await Modular.get<AuthController>().logOut();
+    Modular.to.pushReplacementNamed('/');
   }
 }

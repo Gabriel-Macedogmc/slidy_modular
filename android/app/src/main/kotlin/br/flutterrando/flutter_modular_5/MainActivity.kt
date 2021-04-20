@@ -1,4 +1,4 @@
-package com.example.flutter_modular_5
+package br.fluterrando.flutter_modular_5
 
 import io.flutter.embedding.android.FlutterActivity
 
